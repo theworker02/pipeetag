@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pipeetag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pipe filesystem etag paths across POSIX and Windows conventions.",
+  "bin": {
+    "pipeetag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pipeetag.git"
+  },
+  "homepage": "https://theworker02.github.io/pipeetag/",
+  "keywords": [
+    "pipe",
+    "etag",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
